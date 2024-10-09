@@ -723,6 +723,9 @@ FW_VERSIONS = {
       b'54008-TJB-A520\x00\x00',
       b'54008-TJB-A530\x00\x00',
     ],
+    (Ecu.programmedFuelInjection, 0x18da10f1, None): [
+      b'37805-5YF-AQ20\x00\x00',
+    ],
     (Ecu.transmission, 0x18da1ef1, None): [
       b'28102-5YK-A400\x00\x00',
       b'28102-5YK-A610\x00\x00',
@@ -754,6 +757,9 @@ FW_VERSIONS = {
       b'38897-TJB-A120\x00\x00',
       b'38897-TJB-A220\x00\x00',
       b'38897-TJB-A410\x00\x00',
+    ],
+    (Ecu.combinationMeter, 0x18da60f1, None): [
+      b'78109-TJB-CM20\x00\x00',
     ],
     (Ecu.eps, 0x18da30f1, None): [
       b'39990-TJB-A030\x00\x00',
