@@ -2,7 +2,7 @@ name: Sync comma's LFS
 
 env:
   LFS_URL: 'https://gitlab.com/sunnypilot/public/sunnypilot-new-lfs.git/info/lfs'
-  LFS_PUSH_URL: 'ssh://git@gitlab.com/sunnypilot/public/sunnypilot-new-lfs.git'
+  LFS_PUSH_URL: 'https://gitlab.com/sunnypilot/public/sunnypilot-new-lfs.git'
 
 on:
   schedule:
